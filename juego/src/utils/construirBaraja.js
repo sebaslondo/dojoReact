@@ -16,6 +16,6 @@ export default (params) =>  {
         cartas.push({...carta});//volvemos a empujar clonada para que queden las parejas
     }
 
-    //return shuffle(cartas);//revolvemos las cartas antes de devolverlas
-    return cartas;
+    return shuffle(cartas);//revolvemos las cartas antes de devolverlas
+    //return cartas;
 };
